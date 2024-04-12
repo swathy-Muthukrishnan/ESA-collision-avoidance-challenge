@@ -29,10 +29,9 @@ The PredictRisk class consists of several methods for data preprocessing, datase
 
 - `run_pipe_line(self)`: Executes the entire risk prediction model, including data preprocessing, model training, prediction, and evaluation.
 
-## Folder Structure
-
+## Risk Prediction Project Directory Structure
 The folder structure for this project is as follows:
-
+```
 Risk_prediction/
 │
 ├── data_preprocessor.py
@@ -43,7 +42,8 @@ Risk_prediction/
 ├── requirements.txt
 └── README.md
 └── Dataset
-	└──train_data.csv
+    └── train_data.csv
+```
 
 
 ### Dependencies
